@@ -1,12 +1,13 @@
 @charset "utf-8";
 
+* {
+  margin: 0px;
+}
+
 body {
   background-color: rgb(247, 210, 250);
 }
 
-picture {
-  flex-basis: 50%;
-}
 
 img {
   height: 600px;
@@ -15,20 +16,34 @@ img {
 }
 
 .card {
+  display: flex;
+  flex-direction: row;
   background-color: hsl(100, 100%, 100%);
   height: 600px;
   width: 800px;
-  display: flex;
   border-radius: 15px;
-  margin: auto;  
 }
 
 .center {
-  margin-left: 15px;
-  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 20px;
 }
 
 h1 {
-    font-family: 'Fraunces', serifa;
+  font-size: 2.6em;
+  font-weight: bolder;
+  font-family: 'fraunces', 'kaushan';
+}
+
+p {
+  font-size: 1.3em;
+  font-family: 'montserrat';
+}
+
+div#preço {
+  display: flex;
+  flex-direction: row;
 }
 
