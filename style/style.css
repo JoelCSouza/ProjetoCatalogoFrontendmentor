@@ -42,8 +42,17 @@ p {
   font-family: 'montserrat';
 }
 
-div#preço {
+div.preço {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.preço h1 {
+  margin-right: 40px;
+}
+
+.preço p {
+  text-decoration: line-through;
 }
 
