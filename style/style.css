@@ -5,23 +5,29 @@
 }
 
 body {
+  height: 100vh;
+  position: relative;
   background-color: rgb(247, 210, 250);
 }
 
 
 img {
-  height: 600px;
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
+  height: 500px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .card {
   display: flex;
   flex-direction: row;
   background-color: hsl(100, 100%, 100%);
-  height: 600px;
-  width: 800px;
-  border-radius: 15px;
+  height: 500px;
+  width: 700px;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .center {
@@ -37,6 +43,10 @@ h1 {
   font-family: 'fraunces', 'kaushan';
 }
 
+.center > p {
+  color: gray;
+}
+
 p {
   font-size: 1.3em;
   font-family: 'montserrat';
@@ -50,9 +60,27 @@ div.preço {
 
 .preço h1 {
   margin-right: 40px;
+  color: #3c8067;
 }
 
 .preço p {
   text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  color: white;
+  font-size: 1.1em;
+  height: 50px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #3c8067;
+  border: none;
+}
+
+button > img {
+  height: 55%;
+  margin-right: 15px;
 }
 
