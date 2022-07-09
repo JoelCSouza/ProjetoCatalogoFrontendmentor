@@ -93,12 +93,12 @@ button > img {
 }
 
 
-@media(max-width: 580px) {
+@media(max-width: 680px) {
   .card {
     display: flex;
     flex-direction: column;
-    width: 480px;
-    height: 700px;
+    width: 400px;
+    height: 800px;
   }
 
   .center {
