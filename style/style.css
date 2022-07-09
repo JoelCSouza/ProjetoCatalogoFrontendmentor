@@ -17,6 +17,14 @@ img {
   border-top-left-radius: 20px;
 }
 
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
 .card {
   display: flex;
   flex-direction: row;
@@ -84,3 +92,40 @@ button > img {
   margin-right: 15px;
 }
 
+
+@media(max-width: 680px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 800px;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+    margin: 10px 35px;
+  }
+
+  .center p {
+     margin: 15px 0px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 15px;
+  }
+  
+  button {
+    width: 97%;
+    margin-left: 0%;
+  }
+}
