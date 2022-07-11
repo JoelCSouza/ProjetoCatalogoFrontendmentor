@@ -95,21 +95,22 @@ button > img {
 
 @media(max-width: 680px) {
   .card {
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 750px;
+    width: 330px;
+    height: 600px;
   }
 
   .center {
     display: flex;
     flex-direction: column;
-    flex-basis: 80%;
     margin: 10px 35px;
+    font-size: 0.7em;
   }
 
   .center p {
-     margin: 15px 0px;
+     margin: 10px 0px;
   }
 
   .desktop {
@@ -122,6 +123,11 @@ button > img {
     width: 100%;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 15px;
+  }
+
+  .center p {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   
   button {
